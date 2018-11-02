@@ -101,6 +101,7 @@ h1 { /* Bus #s */
   padding: 2px 16px 10px 24px;
   display: inline-block;
   margin-top: 12px;
+  width: 105px;
 }
 
 h2 { /* Next buses arriving */
