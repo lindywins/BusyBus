@@ -1,0 +1,123 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #000000;
+  font-family: "SF Pro Text"; sans-serif;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.container {
+  background-color: #ffffff;
+  height: 667px;
+  margin: 0 auto;
+  width: 375px;
+}
+
+nav {
+  width: 375px;
+  height: 68px;
+  margin: 0 auto;
+  box-shadow: 0 0.2px 3px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+h3 { /* Washington & State */
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  padding: 7px 16px 20px 54px;
+  margin-top: -20px;
+  width: 200px;
+  position: absolute;
+  max-height: 15px;
+  white-space: nowrap;
+}
+
+.innerNav {
+  padding: 6px 16px 6px 26px;
+}
+
+.hamburger {
+  width: 18px;
+  height: 2px;
+  background-color: #007AFF;
+  margin: 6px 0;
+  float: left;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  display: inline-block;
+  padding: 0px 6px 16px 275px;
+  margin-top: -32px;
+}
+
+.map {
+  margin-top: 68px;
+}
+
+.list {
+  border-top: 1px solid #BCBBC1;
+  width: 98%;
+}
+
+.overlay {
+  background-color: #ffffff;
+  padding: 18px 0 0 8px;
+  width: 375px;
+  position: absolute;
+  height: 319px;
+  top: 348px;
+  box-shadow: 0px 1px 3px;
+  border-radius: 10px 10px 0 0;
+}
+
+.notch {
+  width: 36px;
+  height: 3px;
+  background-color: #CBCDCC;
+  position: absolute;
+  top: 6px;
+  left: 170px;
+  border-radius: 100px;
+}
+
+.content {
+  padding: 16px 0 16px 4px;
+  display: inline-block;
+}
+
+h1 { /* Bus #s */
+  float: left;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 2px 16px 10px 24px;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+h2 { /* Next buses arriving */
+  font-size: 19px;
+  font-weight: 600;
+  padding: 10px 0 16px 26px;
+}
+
+h4 { /* minutes and descriptions */
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+.arrow {
+  float: right;
+  margin-right: 16px;
+  margin-top: 5%;
+  display: inline-block;
+  padding-top: 6px;
+}
