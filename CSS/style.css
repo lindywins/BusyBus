@@ -112,9 +112,13 @@ h2 { /* Next buses arriving */
 }
 
 h4 { /* minutes and descriptions */
-  font-weight: 500;
+  font-weight: 400;
   margin-left: 6px;
   line-height: 120%;
+}
+
+span {
+  font-weight: 800;
 }
 
 .red {
